@@ -4,5 +4,5 @@ This is a mobile application built to demonstrate the mechanism of the Redux arc
 
 ## Demo 
 
-https://user-images.githubusercontent.com/56642018/138445654-9b143de7-8a9d-4172-8d28-c38a5c3eb1b4.mp4
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/56642018/138445935-95f0d99b-23a3-42eb-a02a-3694af94e342.gif)
