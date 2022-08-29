@@ -10,6 +10,8 @@ import 'middleware.dart';
 
 void main() => runApp(MyApp());
 
+typedef FetchTime = void Function();
+
 class MyApp extends StatelessWidget {
 
   final store = Store<AppState>(reducer,
@@ -90,7 +92,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             fontWeight: FontWeight.w600,
                             fontSize: 25
                           ),
-                        )),
+                        )
+                    ),
                   );
                 },
               )
@@ -102,4 +105,3 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-typedef FetchTime = void Function();
