@@ -73,9 +73,15 @@ class _MyHomePageState extends State<MyHomePage> {
                   return   SizedBox(
                     width: 250,
                     height: 50,
-                    child: RaisedButton(
-                        color: Colors.amber,
-                        textColor: Colors.brown,
+                    child: ElevatedButton(
+                      style: ButtonStyle(
+                        backgroundColor: MaterialStateProperty.all<Color>(Colors.amber),
+                        textStyle: MaterialStateProperty.all<TextStyle>(
+                          TextStyle(
+                            color: Colors.brown,
+                          ),
+                        )
+                      ),
                         onPressed: fetchTimeCallback,
                         child:   const Text(
                             "Click to fetch time",
